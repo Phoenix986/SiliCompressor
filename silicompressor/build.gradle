@@ -26,6 +26,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:25.1.0'
+    compile group: 'org.aspectj', name: 'aspectjrt', version: '1.7.3'
+    compile group: 'com.googlecode.mp4parser', name: 'isoparser', version: '1.0.6'
 }
 
 ext {
